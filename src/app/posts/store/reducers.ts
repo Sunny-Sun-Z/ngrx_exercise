@@ -9,5 +9,5 @@ export const initialState: PostsStateInterface = {
 
 export const reducers = createReducer(
     initialState,
-    on(PostsActions.getPosts, (state)=>({...state, isloading:true}))
+    on(PostsActions.getPosts, (state)=>({...state, isLoading: true}))
 )
